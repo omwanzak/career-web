@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+#about {
+   display:flex ;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 8px; 
+}
+#description {
+width: 50%;
+padding-right: 8px;
+font-size: 2rem;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form div {
+    margin: 16px;
+
+} 
+
+.form-group textarea {
+    width :80%;
+}
+
+#application-form label {
+    font-weight: 600;
+}
+#application-form input {
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+}
+
+a :hover a:active{
+    color: rgb(85, 85, 234);
+}
+#team {
+    width: 50%;
+}
+#banner {
+width: 100%;
+}
+.location {
+    color: rgb(110, 110, 215);
+    margin-bottom: 16px;
+}
+#logos {
+    width: 100px;
+    height: 100px;
+}
+#navbar {
+    margin: 0;
+    padding: 10px;
+}
+#banner {
+    object-fit: cover;
+}
+#team-image {
+    border-radius: 5px;
+    width: 50%;
+}
+h2 {
+    text-align: center;
+}
+#job {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 9 8px;
+}
+.job-role {
+    margin-top: 8px;
+}
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+.apply {
+    float: right;
+}
+.a {
+    text-decoration: none;
+}
+#footer {
+    background-color: grey;
+    padding:  8px;
+    margin-top: 32px;
+}
+#footer-links {
+    list-style: none;
+    
+}
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+    margin: 0;
+}
+.copyright {
+    color: aqua;
+}
+#job-table {
+    width: 100%;
+    border: 10px solid rgb(85, 152, 214);
+    border-collapse: collapse;
+}
+.job-data-row td{
+    border-right: 1px;
+    padding: 8px;
+
+}
+#job-table tr:nth-child(odd){
+background-color: rgb(88, 88, 196);
+}
+#jobheader th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.summary {
+    display: flex;
+}
+.summary p{
+    width: 70%;
+}
+.summary img{
+    width: 30%;
+};
+
